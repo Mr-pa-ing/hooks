@@ -17,6 +17,7 @@ import PComponent from "./component/Reducer&Context/PComponent";
 import DataFetchingWithReducer from "./component/useReducer/DataFetchingWithReducer";
 import DataFetchingTwo from "./component/useReducer/DataFetchingTwo";
 import ParentComponent from "./component/useCallback/ParentComponent";
+import MemoCounter from "./component/useMemo/MemoCounter";
 
 
 function App() {
@@ -53,6 +54,9 @@ function App() {
 
       {/* useCallback */}
       <ParentComponent/>
+
+      {/* useMemo */}
+      <MemoCounter/>
 
     </div>
   );
