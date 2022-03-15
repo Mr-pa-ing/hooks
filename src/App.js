@@ -18,6 +18,13 @@ import DataFetchingWithReducer from "./component/useReducer/DataFetchingWithRedu
 import DataFetchingTwo from "./component/useReducer/DataFetchingTwo";
 import ParentComponent from "./component/useCallback/ParentComponent";
 import MemoCounter from "./component/useMemo/MemoCounter";
+import FocusInput from "./component/useRef/FocusInput";
+import ClassTimer from "./component/useRef/ClassTimer";
+import HookTimer from "./component/useRef/HookTimer";
+import DocTitleOne from "./component/customHook/DocTitleOne";
+import DocTitleTwo from "./component/customHook/DocTitleTwo";
+import Cone from "./component/customHook/Cone";
+import Ctwo from "./component/customHook/Ctwo";
 
 
 function App() {
@@ -57,6 +64,17 @@ function App() {
 
       {/* useMemo */}
       <MemoCounter/>
+
+      {/* useRef */}
+      <FocusInput/>
+      <ClassTimer/>
+      <HookTimer/>
+
+      {/* Custom Hook */}
+      <DocTitleOne/>
+      <DocTitleTwo/>
+      <Cone/>
+      <Ctwo/>
 
     </div>
   );

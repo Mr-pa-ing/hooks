@@ -26,7 +26,7 @@ function MemoCounter() {
         <h1>useMemo Hook</h1>
         <div>
             <button onClick={incrementOne}>Counter One - {counterone}</button>
-            <span>{isEven() ? 'Even' : 'Odd'}</span>
+            <span>{isEven ? 'Even' : 'Odd'}</span>
         </div>
         <div>
             <button onClick={incrementTwo}>Counter Two - {countertwo}</button>
