@@ -25,6 +25,7 @@ import DocTitleOne from "./component/customHook/DocTitleOne";
 import DocTitleTwo from "./component/customHook/DocTitleTwo";
 import Cone from "./component/customHook/Cone";
 import Ctwo from "./component/customHook/Ctwo";
+import UserForm from "./component/customHook/UserForm";
 
 
 function App() {
@@ -75,6 +76,8 @@ function App() {
       <DocTitleTwo/>
       <Cone/>
       <Ctwo/>
+
+      <UserForm/>
 
     </div>
   );
